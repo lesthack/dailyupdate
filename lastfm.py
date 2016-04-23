@@ -50,10 +50,10 @@ else:
             album=album,
             track=track
         ) 
-        scrobbler_file = '{base}/scrobbler.md'.format(base=args['destiny'])
+        scrobbler_file = '{base}/day.md'.format(base=args['destiny'], day=str(datetime.now().day).zfill(2))
         if not os.path.isfile(scrobbler_file):
             sf = open(scrobbler_file, 'w')
-            sf.write('#Log of {day} day\n\n'.format(day=datetime.now().day))
+            sf.write('#Log of {day} day\n\n'.format(day=str(datetime.now().day).zfill(2)))
         else:
             sf = open(scrobbler_file, 'r')
             last_track = sf.readlines()[-1][6:-1]
