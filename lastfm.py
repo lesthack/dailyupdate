@@ -56,11 +56,11 @@ else:
             sf.write('#Log of {day} day\n\n'.format(day=str(datetime.now().day).zfill(2)))
         else:
             sf = open(scrobbler_file, 'r')
-            last_track = str(sf.readlines()[-1][6:-1]).strip()
+            last_track = str(sf.readlines()[-1][9:-1]).strip()
             sf.close()
             sf = open(scrobbler_file, 'a')
         if last_track != current_track:
-            sf.write(u'\n{hour}:{minute} {track}\n'.format(
+            sf.write(u'1. {hour}:{minute} {track}\n'.format(
                 hour=str(datetime.now().hour).zfill(2),
                 minute=str(datetime.now().minute).zfill(2),
                 track=current_track)
