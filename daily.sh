@@ -1,6 +1,6 @@
 path="$HOME/dailyupdate"
 music_path="$path/music"
-date=`date +"%m-%d-%y %H-%M"`
+date=`date +"%y-%m-%d %H:%M"`
 year=`date +"%Y"`
 month=`date +"%m"`
 
