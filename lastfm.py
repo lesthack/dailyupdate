@@ -50,7 +50,7 @@ else:
             album=album,
             track=track
         ) 
-        scrobbler_file = '{base}/day.md'.format(base=args['destiny'], day=str(datetime.now().day).zfill(2))
+        scrobbler_file = '{base}/{day}.md'.format(base=args['destiny'], day=str(datetime.now().day).zfill(2))
         if not os.path.isfile(scrobbler_file):
             sf = open(scrobbler_file, 'w')
             sf.write('#Log of {day} day\n\n'.format(day=str(datetime.now().day).zfill(2)))
