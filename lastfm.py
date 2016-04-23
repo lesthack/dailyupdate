@@ -60,7 +60,7 @@ else:
             sf.close()
             sf = open(scrobbler_file, 'a')
         if last_track != current_track:
-            sf.write('{hour}:{minute} {track}\n\n'.format(
+            sf.write(u'\n{hour}:{minute} {track}'.format(
                 hour=str(datetime.now().hour).zfill(2),
                 minute=str(datetime.now().minute).zfill(2),
                 track=current_track)
