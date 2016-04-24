@@ -8,4 +8,4 @@ Existen diversos bot’s que se están ejecutando en este momento en algunos ser
 
 1. [Music][1]
 
-[1]: /lesthack/dailyupdate/tree/master/music/
+[1]: https://github.com/lesthack/dailyupdate/tree/master/music/
