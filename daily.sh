@@ -19,7 +19,7 @@ if [ ! -d "$music_path/$year/$month" ]; then
 fi
 
 # scrobbling
-python lastfm.py -d "$music_path/$year/$month" -s
+python lastfm.py -p "$path" -s
 
 #echo "." >> README.md
 git add *

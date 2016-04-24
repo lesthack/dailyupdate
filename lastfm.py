@@ -6,11 +6,14 @@ import json
 import sys
 import os
 
+year = str(datetime.now().year)
+month = str(datetime.now().month).zfill(2)
+day = str(datetime.now().day).zfill(2)
 last_url = 'http://ws.audioscrobbler.com/2.0/'
 last_user = 'lesthack'
 last_apikey = '17bd7f0d94443f6339322ec910429126'
 
-def scrobbler(destiny):
+def scrobbler(music_path):
     params = {
         'method': 'user.getRecentTracks',
         'limit': 1,
@@ -38,7 +41,7 @@ def scrobbler(destiny):
             album=album,
             track=track
         ) 
-        scrobbler_file = '{base}/{day}.md'.format(base=destiny, day=str(datetime.now().day).zfill(2))
+        scrobbler_file = '{base}/{day}.md'.format(base=music_path, day=str(datetime.now().day).zfill(2))
         if not os.path.isfile(scrobbler_file):
             sf = open(scrobbler_file, 'w')
             sf.write('#Log of {day} day\n\n'.format(day=str(datetime.now().day).zfill(2)))
@@ -54,7 +57,7 @@ def scrobbler(destiny):
                 track=current_track)
             )
         sf.close()
-        print 'scrobbler: ok'
+        print current_track
     except Exception as e:
         print 'Error: ',e
         traceback.print_exc(file=sys.stdout) 
@@ -66,10 +69,11 @@ argp = ArgumentParser(
     version='1.0'
 )
 argp.add_argument('-s', '--scrobbler', action='store_true', help='Scrobbler')
-argp.add_argument('-d', dest='destiny', action='store', help='Path.', default=False)
+argp.add_argument('-p', dest='path', action='store', help='Path.', default=False)
 args = vars(argp.parse_args())
 
-if not args['destiny'] or not args['scrobbler']:
+if not args['path'] or not args['scrobbler']:
     argp.print_help()
 else:
-    scrobbler(args['destiny'])
+    music_path = os.path.join(args['path'], 'music', year, month)
+    scrobbler(music_path)
