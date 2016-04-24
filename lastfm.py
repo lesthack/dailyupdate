@@ -48,12 +48,13 @@ def scrobbler(destiny):
             sf.close()
             sf = open(scrobbler_file, 'a')
         if last_track != current_track:
-            sf.write(u'1. [{hour}:{minute}] {track}\n'.format(
+            sf.write('1. [{hour}:{minute}] {track}\n'.format(
                 hour=str(datetime.now().hour).zfill(2),
                 minute=str(datetime.now().minute).zfill(2),
                 track=current_track)
             )
         sf.close()
+        print 'scrobbler: ok'
     except Exception as e:
         print 'Error: ',e
         traceback.print_exc(file=sys.stdout) 

@@ -22,6 +22,6 @@ fi
 python lastfm.py -d "$music_path/$year/$month" -s
 
 #echo "." >> README.md
-git add *
-git commit -m "Changes on $date"
-git push origin master
+#git add *
+#git commit -m "Changes on $date"
+#git push origin master
