@@ -10,19 +10,7 @@ last_url = 'http://ws.audioscrobbler.com/2.0/'
 last_user = 'lesthack'
 last_apikey = '17bd7f0d94443f6339322ec910429126'
 
-argp = ArgumentParser(
-    prog='lesthackbot',
-    description='Bot',
-    epilog='GPL v3.0',
-    version='1.0'
-)
-argp.add_argument('-s', '--scrobbler', action='store_true', help='Scrobbler')
-argp.add_argument('-d', dest='destiny', action='store', help='Path.', default=False)
-args = vars(argp.parse_args())
-
-if not args['destiny'] or not args['scrobbler']:
-    argp.print_help()
-else:
+def scrobbler(destiny):
     params = {
         'method': 'user.getRecentTracks',
         'limit': 1,
@@ -50,7 +38,7 @@ else:
             album=album,
             track=track
         ) 
-        scrobbler_file = '{base}/{day}.md'.format(base=args['destiny'], day=str(datetime.now().day).zfill(2))
+        scrobbler_file = '{base}/{day}.md'.format(base=destiny, day=str(datetime.now().day).zfill(2))
         if not os.path.isfile(scrobbler_file):
             sf = open(scrobbler_file, 'w')
             sf.write('#Log of {day} day\n\n'.format(day=str(datetime.now().day).zfill(2)))
@@ -69,3 +57,18 @@ else:
     except Exception as e:
         print 'Error: ',e
         traceback.print_exc(file=sys.stdout) 
+
+argp = ArgumentParser(
+    prog='lesthackbot',
+    description='Bot',
+    epilog='GPL v3.0',
+    version='1.0'
+)
+argp.add_argument('-s', '--scrobbler', action='store_true', help='Scrobbler')
+argp.add_argument('-d', dest='destiny', action='store', help='Path.', default=False)
+args = vars(argp.parse_args())
+
+if not args['destiny'] or not args['scrobbler']:
+    argp.print_help()
+else:
+    scrobbler(args['destiny'])
