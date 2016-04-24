@@ -34,12 +34,12 @@ def scrobbler(music_path):
         if len(album) == 0: album = 'unknown'
         if len(artist) == 0: artist = 'unknown'
         if len(track) == 0: track = 'unknown'
-
+        
         last_track = ''
-        current_track = u'{artist} - {album} - {track}'.format(
-            artist=artist,
-            album=album,
-            track=track
+        current_track = '{artist} - {album} - {track}'.format(
+            artist=artist.encode('utf-8'),
+            album=album.encode('utf-8'),
+            track=track.encode('utf-8')
         ) 
         scrobbler_file = '{base}/{day}.md'.format(base=music_path, day=str(datetime.now().day).zfill(2))
         if not os.path.isfile(scrobbler_file):
