@@ -4,6 +4,7 @@ date=`date +"%Y-%m-%d %H:%M"`
 year=`date +"%Y"`
 month=`date +"%m"`
 
+. ~/.keychain/`/bin/hostname`-sh
 cd $path
 
 if [ ! -d "$music_path" ]; then
