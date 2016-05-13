@@ -22,7 +22,6 @@ fi
 python lastfm.py -p "$path" -s
 
 #echo "." >> README.md
-eval "$(ssh-agent -s)"
 git add *
 git commit -m "Changes on $date"
 git push origin master
