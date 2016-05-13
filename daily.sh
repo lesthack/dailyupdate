@@ -29,6 +29,7 @@ fi
 # scrobbling
 python lastfm.py -p "$path" -s
 
-git add *
+# Only path music
+git add music
 git commit -m "Changes on $date"
 git push origin master
