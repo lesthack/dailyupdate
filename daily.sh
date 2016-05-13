@@ -4,7 +4,14 @@ date=`date +"%Y-%m-%d %H:%M"`
 year=`date +"%Y"`
 month=`date +"%m"`
 
+# add this code to .bash_profle or .zshrc
+# Link: http://serverfault.com/questions/92683/execute-rsync-command-over-ssh-with-an-ssh-agent-via-crontab/236437#236437
+#if [ -x /usr/bin/keychain ]; then
+#    /usr/bin/keychain --quiet --clear $HOME/.ssh/git_rsa
+#fi
+
 . ~/.keychain/`/bin/hostname`-sh
+
 cd $path
 
 if [ ! -d "$music_path" ]; then
