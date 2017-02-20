@@ -1,4 +1,4 @@
-callback({"topalbums":[
+{"topalbums":[
     {
         "album": "Amor , pasi\u00f3n y otras locuras", 
         "artist": "Avenue", 
@@ -349,4 +349,4 @@ callback({"topalbums":[
         "playcount": "4", 
         "url": "https://www.last.fm/music/Daft+Punk/Homework"
     }
-]});
+]}
