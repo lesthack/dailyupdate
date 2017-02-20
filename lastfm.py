@@ -1,7 +1,9 @@
 from argparse import ArgumentParser
 from datetime import datetime
+import urllib2
 import requests
 import traceback
+import base64
 import json
 import sys
 import os
@@ -62,6 +64,42 @@ def scrobbler(music_path):
         print 'Error: ',e
         traceback.print_exc(file=sys.stdout) 
 
+def topalbums(albums_path):
+    params = {
+        'method': 'user.getTopAlbums',
+        'user': last_user,
+        'api_key': last_apikey,
+        'format': 'json',
+        'period': '1month',
+        #'limit': 1,
+        #'page': 1,
+    }
+    list_albums = []
+    try:
+        r = requests.get(last_url, params=params)
+        json_response = json.loads(r.content)
+        
+        topalbums = json_response['topalbums']
+        for album in topalbums['album']:
+            img64 = ''
+            if(album['image'][2]['#text'].__len__()>0):
+                img64 = base64.b64encode(urllib2.urlopen(album['image'][2]['#text']).read())
+            list_albums.append({
+                'artist': album['artist']['name'],
+                'album': album['name'],
+                'url': album['url'],
+                'playcount': album['playcount'],
+                'image': img64
+            })
+
+        sf = open(albums_path, 'w')
+        sf.write('{"topalbums":'+json.dumps(list_albums, sort_keys=True, indent=4)+'}')
+        sf.close()
+        print len(list_albums)
+    except Exception as e:
+        print 'Error: ',e
+        traceback.print_exc(file=sys.stdout)
+
 argp = ArgumentParser(
     prog='lesthackbot',
     description='Bot',
@@ -69,11 +107,14 @@ argp = ArgumentParser(
     version='1.0'
 )
 argp.add_argument('-s', '--scrobbler', action='store_true', help='Scrobbler')
+argp.add_argument('-a', '--topalbums', action='store_true', help='Top Albums')
 argp.add_argument('-p', dest='path', action='store', help='Path.', default=False)
 args = vars(argp.parse_args())
 
-if not args['path'] or not args['scrobbler']:
-    argp.print_help()
-else:
+if args['path'] and args['scrobbler']:
     music_path = os.path.join(args['path'], 'music', year, month)
     scrobbler(music_path)
+if args['path'] and args['topalbums']:
+    topalbums(args['path'])
+else:
+    argp.print_help()
