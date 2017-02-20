@@ -93,7 +93,7 @@ def topalbums(albums_path):
             })
 
         sf = open(albums_path, 'w')
-        sf.write('callback({"topalbums":'+json.dumps(list_albums, sort_keys=True, indent=4)+'});')
+        sf.write('{"topalbums":'+json.dumps(list_albums, sort_keys=True, indent=4)+'}')
         sf.close()
         print len(list_albums)
     except Exception as e:
