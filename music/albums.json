@@ -14,6 +14,13 @@
         "url": "https://www.last.fm/music/J%C3%B3hann+J%C3%B3hannsson/The+Theory+of+Everything+(Original+Motion+Picture+Soundtrack)"
     }, 
     {
+        "album": "Death Note OST I", 
+        "artist": "Death Note OST I", 
+        "image": "", 
+        "playcount": "23", 
+        "url": "https://www.last.fm/music/Death+Note+OST+I/Death+Note+OST+I"
+    }, 
+    {
         "album": "Death Note OST II", 
         "artist": "Death Note OST II", 
         "image": "", 
@@ -26,13 +33,6 @@
         "image": "", 
         "playcount": "22", 
         "url": "https://www.last.fm/music/Death+Note+OST+III/Death+Note+OST+III"
-    }, 
-    {
-        "album": "Death Note OST I", 
-        "artist": "Death Note OST I", 
-        "image": "", 
-        "playcount": "20", 
-        "url": "https://www.last.fm/music/Death+Note+OST+I/Death+Note+OST+I"
     }, 
     {
         "album": "Interstellar: Original Motion Picture Soundtrack", 
