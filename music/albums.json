@@ -7,13 +7,6 @@
         "url": "https://www.last.fm/music/Porter/Donde+Los+Ponys+Pastan"
     }, 
     {
-        "album": "Death Note OST II", 
-        "artist": "Death Note OST II", 
-        "image": "", 
-        "playcount": "22", 
-        "url": "https://www.last.fm/music/Death+Note+OST+II/Death+Note+OST+II"
-    }, 
-    {
         "album": "Death Note OST III", 
         "artist": "Death Note OST III", 
         "image": "", 
@@ -40,6 +33,13 @@
         "image": "", 
         "playcount": "20", 
         "url": "https://www.last.fm/music/Death+Note+OST+I/Death+Note+OST+I"
+    }, 
+    {
+        "album": "Death Note OST II", 
+        "artist": "Death Note OST II", 
+        "image": "", 
+        "playcount": "20", 
+        "url": "https://www.last.fm/music/Death+Note+OST+II/Death+Note+OST+II"
     }, 
     {
         "album": "Hasta la Ra\u00edz (Edici\u00f3n Especial)", 
