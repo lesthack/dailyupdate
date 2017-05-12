@@ -105,18 +105,18 @@
         "url": "https://www.last.fm/music/Miami+Horror/Illumination"
     }, 
     {
-        "album": "Windvane and Window", 
-        "artist": "Windvane and Window", 
-        "image": "", 
-        "playcount": "10", 
-        "url": "https://www.last.fm/music/Windvane+and+Window/Windvane+and+Window"
-    }, 
-    {
         "album": "Telepathy Dreams", 
         "artist": "Telepathy Dreams", 
         "image": "", 
         "playcount": "9", 
         "url": "https://www.last.fm/music/Telepathy+Dreams/Telepathy+Dreams"
+    }, 
+    {
+        "album": "Windvane and Window", 
+        "artist": "Windvane and Window", 
+        "image": "", 
+        "playcount": "9", 
+        "url": "https://www.last.fm/music/Windvane+and+Window/Windvane+and+Window"
     }, 
     {
         "album": "Awaking The Centuries", 
