@@ -210,6 +210,13 @@
         "url": "https://www.last.fm/music/Neon+Indian/VEGA+INTL.+NIGHT+SCHOOL"
     }, 
     {
+        "album": "...And Other Reasons", 
+        "artist": "Elbereth", 
+        "image": "", 
+        "playcount": "4", 
+        "url": "https://www.last.fm/music/Elbereth/...And+Other+Reasons"
+    }, 
+    {
         "album": "20 Exitos", 
         "artist": "Mike Laure", 
         "image": "", 
@@ -327,13 +334,6 @@
         "image": "", 
         "playcount": "4", 
         "url": "https://www.last.fm/music/Los+%C3%81ngeles+Azules/Una+Lluvia+de+Rosas"
-    }, 
-    {
-        "album": "...And Other Reasons", 
-        "artist": "Elbereth", 
-        "image": "", 
-        "playcount": "3", 
-        "url": "https://www.last.fm/music/Elbereth/...And+Other+Reasons"
     }, 
     {
         "album": "A.K.A. Lizzy Grant", 
