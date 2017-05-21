@@ -259,6 +259,13 @@
         "url": "https://www.last.fm/music/Lana+Del+Rey/A.K.A.+Lizzy+Grant"
     }, 
     {
+        "album": "Another Case", 
+        "artist": "Tora", 
+        "image": "", 
+        "playcount": "3", 
+        "url": "https://www.last.fm/music/Tora/Another+Case"
+    }, 
+    {
         "album": "Avengers [2012 Score]", 
         "artist": "Alan Silvestri", 
         "image": "", 
@@ -341,12 +348,5 @@
         "image": "", 
         "playcount": "3", 
         "url": "https://www.last.fm/music/Death+Note+OST+I/Death+Note+OST+I"
-    }, 
-    {
-        "album": "Death Note OST III", 
-        "artist": "Death Note OST III", 
-        "image": "", 
-        "playcount": "3", 
-        "url": "https://www.last.fm/music/Death+Note+OST+III/Death+Note+OST+III"
     }
 ]}
