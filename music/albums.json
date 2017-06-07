@@ -77,18 +77,18 @@
         "url": "https://www.last.fm/music/Technicolor+Fabrics/Sesiones+Clickaporte+de+Ibero+90.9"
     }, 
     {
-        "album": "We Are Dust", 
-        "artist": "Sole Symphony", 
-        "image": "", 
-        "playcount": "15", 
-        "url": "https://www.last.fm/music/Sole+Symphony/We+Are+Dust"
-    }, 
-    {
         "album": "Relax", 
         "artist": "Sole Symphony", 
         "image": "", 
         "playcount": "14", 
         "url": "https://www.last.fm/music/Sole+Symphony/Relax"
+    }, 
+    {
+        "album": "We Are Dust", 
+        "artist": "Sole Symphony", 
+        "image": "", 
+        "playcount": "14", 
+        "url": "https://www.last.fm/music/Sole+Symphony/We+Are+Dust"
     }, 
     {
         "album": "El Vuelo del Pez", 
