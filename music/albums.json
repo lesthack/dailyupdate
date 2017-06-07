@@ -112,18 +112,18 @@
         "url": "https://www.last.fm/music/El+podcast+de+Olallo+Rubio/El+podcast+de+Olallo+Rubio"
     }, 
     {
-        "album": "We Are Dust", 
-        "artist": "Sole Symphony", 
-        "image": "", 
-        "playcount": "8", 
-        "url": "https://www.last.fm/music/Sole+Symphony/We+Are+Dust"
-    }, 
-    {
         "album": "Peer Kusiv", 
         "artist": "Peer Kusiv", 
         "image": "", 
         "playcount": "7", 
         "url": "https://www.last.fm/music/Peer+Kusiv/Peer+Kusiv"
+    }, 
+    {
+        "album": "We Are Dust", 
+        "artist": "Sole Symphony", 
+        "image": "", 
+        "playcount": "7", 
+        "url": "https://www.last.fm/music/Sole+Symphony/We+Are+Dust"
     }, 
     {
         "album": "Babel", 
