@@ -217,6 +217,13 @@
         "url": "https://www.last.fm/music/Daniela+Andrade/Youtube+Covers"
     }, 
     {
+        "album": "Dance 90", 
+        "artist": "Disco Fever", 
+        "image": "", 
+        "playcount": "9", 
+        "url": "https://www.last.fm/music/Disco+Fever/Dance+90"
+    }, 
+    {
         "album": "Dragon Ball GT OST", 
         "artist": "Aaron Montalvo", 
         "image": "", 
@@ -250,13 +257,6 @@
         "image": "", 
         "playcount": "8", 
         "url": "https://www.last.fm/music/Laharl+Square/Boku+no+Hero+Academia"
-    }, 
-    {
-        "album": "Dance 90", 
-        "artist": "Disco Fever", 
-        "image": "", 
-        "playcount": "8", 
-        "url": "https://www.last.fm/music/Disco+Fever/Dance+90"
     }, 
     {
         "album": "La \u00faltima noche del mundo", 
