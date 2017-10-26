@@ -147,13 +147,6 @@
         "url": "https://www.last.fm/music/%E5%A4%A9%E7%A9%BA%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%95%E3%83%AD%E3%83%BC%E3%83%8D/Over+the+Sky"
     }, 
     {
-        "album": "SimCity 3000 (Original Soundtrack)", 
-        "artist": "Jerry Martin", 
-        "image": "", 
-        "playcount": "5", 
-        "url": "https://www.last.fm/music/Jerry+Martin/SimCity+3000+(Original+Soundtrack)"
-    }, 
-    {
         "album": "Boku no Hero Academia", 
         "artist": "[unknown]", 
         "image": "", 
@@ -194,6 +187,13 @@
         "image": "", 
         "playcount": "4", 
         "url": "https://www.last.fm/music/Rameses+B/Rameses+B+Soundcloud"
+    }, 
+    {
+        "album": "SimCity 3000 (Original Soundtrack)", 
+        "artist": "Jerry Martin", 
+        "image": "", 
+        "playcount": "4", 
+        "url": "https://www.last.fm/music/Jerry+Martin/SimCity+3000+(Original+Soundtrack)"
     }, 
     {
         "album": "Take U", 
