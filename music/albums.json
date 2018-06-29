@@ -35,13 +35,6 @@
         "url": "https://www.last.fm/music/Austin+TV/Asrael"
     }, 
     {
-        "album": "Etc", 
-        "artist": "Marr\u00f3n", 
-        "image": "", 
-        "playcount": "12", 
-        "url": "https://www.last.fm/music/Marr%C3%B3n/Etc"
-    }, 
-    {
         "album": "El viaje a ninguna parte Disco-2", 
         "artist": "Enrique Bunbury", 
         "image": "", 
@@ -61,6 +54,13 @@
         "image": "", 
         "playcount": "10", 
         "url": "https://www.last.fm/music/Enrique+Bunbury/El+viaje+a+ninguna+parte+Disco-1"
+    }, 
+    {
+        "album": "Etc", 
+        "artist": "Marr\u00f3n", 
+        "image": "", 
+        "playcount": "10", 
+        "url": "https://www.last.fm/music/Marr%C3%B3n/Etc"
     }, 
     {
         "album": "Austin TV EP", 
