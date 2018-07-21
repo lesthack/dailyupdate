@@ -154,13 +154,6 @@
         "url": "https://www.last.fm/music/Tancred/Nightstand"
     }, 
     {
-        "album": "Entiende Tu Mente", 
-        "artist": "Entiende Tu Mente", 
-        "image": "", 
-        "playcount": "5", 
-        "url": "https://www.last.fm/music/Entiende+Tu+Mente/Entiende+Tu+Mente"
-    }, 
-    {
         "album": "KEXP Presents Music That Matters", 
         "artist": "KEXP", 
         "image": "", 
@@ -194,6 +187,13 @@
         "image": "", 
         "playcount": "5", 
         "url": "https://www.last.fm/music/Jaime+Altozano+ft+Cresp+y+Marti/Youtube+Covers"
+    }, 
+    {
+        "album": "Entiende Tu Mente", 
+        "artist": "Entiende Tu Mente", 
+        "image": "", 
+        "playcount": "4", 
+        "url": "https://www.last.fm/music/Entiende+Tu+Mente/Entiende+Tu+Mente"
     }, 
     {
         "album": "Fruta (Vol. II)", 
