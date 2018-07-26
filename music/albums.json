@@ -210,6 +210,13 @@
         "url": "https://www.last.fm/music/Hans+Zimmer/Interstellar+(Original+Motion+Picture+Soundtrack)+%5BDeluxe+Digital+Version%5D"
     }, 
     {
+        "album": "Everybody Think I'm Crazy", 
+        "artist": "E.V.A.", 
+        "image": "", 
+        "playcount": "5", 
+        "url": "https://www.last.fm/music/E.V.A./Everybody+Think+I%27m+Crazy"
+    }, 
+    {
         "album": "KEXP Presents Music That Matters", 
         "artist": "KEXP", 
         "image": "", 
@@ -243,13 +250,6 @@
         "image": "", 
         "playcount": "5", 
         "url": "https://www.last.fm/music/Ana+Alonso,+Jose+A.P%C3%A9rez+Ledo,+Roberto+Maj%C3%A1n/El+Gran+Apag%C3%B3n"
-    }, 
-    {
-        "album": "Everybody Think I'm Crazy", 
-        "artist": "E.V.A.", 
-        "image": "", 
-        "playcount": "4", 
-        "url": "https://www.last.fm/music/E.V.A./Everybody+Think+I%27m+Crazy"
     }, 
     {
         "album": "Hot Space (Deluxe Edition 2011 Remaster)", 
