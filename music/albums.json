@@ -133,18 +133,18 @@
         "url": "https://www.last.fm/music/Porter+Robinson/Worlds"
     }, 
     {
-        "album": "El Gran Apag\u00f3n", 
-        "artist": "El Gran Apag\u00f3n", 
-        "image": "", 
-        "playcount": "12", 
-        "url": "https://www.last.fm/music/El+Gran+Apag%C3%B3n/El+Gran+Apag%C3%B3n"
-    }, 
-    {
         "album": "The Red Door", 
         "artist": "Restorations", 
         "image": "", 
         "playcount": "11", 
         "url": "https://www.last.fm/music/Restorations/The+Red+Door"
+    }, 
+    {
+        "album": "El Gran Apag\u00f3n", 
+        "artist": "El Gran Apag\u00f3n", 
+        "image": "", 
+        "playcount": "11", 
+        "url": "https://www.last.fm/music/El+Gran+Apag%C3%B3n/El+Gran+Apag%C3%B3n"
     }, 
     {
         "album": "A Night at the Opera", 
