@@ -91,18 +91,18 @@
         "url": "https://www.last.fm/music/Daddy+Long+Legs/Evil+Eye+On+You"
     }, 
     {
+        "album": "Ghost In The Shell", 
+        "artist": "Ghost in the Shell", 
+        "image": "", 
+        "playcount": "15", 
+        "url": "https://www.last.fm/music/Ghost+in+the+Shell/Ghost+In+The+Shell"
+    }, 
+    {
         "album": "Dragon Ball Z BGM Collection [CD 2]", 
         "artist": "Dragon Ball Z BGM Collection [CD 2]", 
         "image": "", 
         "playcount": "15", 
         "url": "https://www.last.fm/music/Dragon+Ball+Z+BGM+Collection+%5BCD+2%5D/Dragon+Ball+Z+BGM+Collection+%5BCD+2%5D"
-    }, 
-    {
-        "album": "Ghost In The Shell", 
-        "artist": "Ghost in the Shell", 
-        "image": "", 
-        "playcount": "14", 
-        "url": "https://www.last.fm/music/Ghost+in+the+Shell/Ghost+In+The+Shell"
     }, 
     {
         "album": "Way Out", 
