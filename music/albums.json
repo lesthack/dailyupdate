@@ -28,18 +28,18 @@
         "url": "https://www.last.fm/music/Pink+Floyd/Ummagumma"
     }, 
     {
-        "album": "Everybody Think I'm Crazy", 
-        "artist": "E.V.A.", 
-        "image": "", 
-        "playcount": "20", 
-        "url": "https://www.last.fm/music/E.V.A./Everybody+Think+I%27m+Crazy"
-    }, 
-    {
         "album": "Ghost In The Shell", 
         "artist": "Ghost in the Shell", 
         "image": "", 
         "playcount": "20", 
         "url": "https://www.last.fm/music/Ghost+in+the+Shell/Ghost+In+The+Shell"
+    }, 
+    {
+        "album": "Everybody Think I'm Crazy", 
+        "artist": "E.V.A.", 
+        "image": "", 
+        "playcount": "19", 
+        "url": "https://www.last.fm/music/E.V.A./Everybody+Think+I%27m+Crazy"
     }, 
     {
         "album": "The Wall", 
