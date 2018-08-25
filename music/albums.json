@@ -42,18 +42,18 @@
         "url": "https://www.last.fm/music/Pink+Floyd/The+Wall"
     }, 
     {
-        "album": "Everybody Think I'm Crazy", 
-        "artist": "E.V.A.", 
-        "image": "", 
-        "playcount": "15", 
-        "url": "https://www.last.fm/music/E.V.A./Everybody+Think+I%27m+Crazy"
-    }, 
-    {
         "album": "Dragon Ball Z BGM Collection [CD 2]", 
         "artist": "Dragon Ball Z BGM Collection [CD 2]", 
         "image": "", 
         "playcount": "15", 
         "url": "https://www.last.fm/music/Dragon+Ball+Z+BGM+Collection+%5BCD+2%5D/Dragon+Ball+Z+BGM+Collection+%5BCD+2%5D"
+    }, 
+    {
+        "album": "Everybody Think I'm Crazy", 
+        "artist": "E.V.A.", 
+        "image": "", 
+        "playcount": "14", 
+        "url": "https://www.last.fm/music/E.V.A./Everybody+Think+I%27m+Crazy"
     }, 
     {
         "album": "The Four Seasons Performed by London Philharmonic Orchestra", 
