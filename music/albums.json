@@ -56,13 +56,6 @@
         "url": "https://www.last.fm/music/Pantoja/Tr%C3%A9bol"
     }, 
     {
-        "album": "Dragon Ball Z BGM Collection [CD 1]", 
-        "artist": "Dragon Ball Z BGM Collection [CD 1]", 
-        "image": "", 
-        "playcount": "13", 
-        "url": "https://www.last.fm/music/Dragon+Ball+Z+BGM+Collection+%5BCD+1%5D/Dragon+Ball+Z+BGM+Collection+%5BCD+1%5D"
-    }, 
-    {
         "album": "The Four Seasons Performed by London Philharmonic Orchestra", 
         "artist": "London Philharmonic Orchestra", 
         "image": "", 
@@ -75,6 +68,13 @@
         "image": "", 
         "playcount": "13", 
         "url": "https://www.last.fm/music/Calina+Lawrence/Youtube+Covers"
+    }, 
+    {
+        "album": "Dragon Ball Z BGM Collection [CD 1]", 
+        "artist": "Dragon Ball Z BGM Collection [CD 1]", 
+        "image": "", 
+        "playcount": "12", 
+        "url": "https://www.last.fm/music/Dragon+Ball+Z+BGM+Collection+%5BCD+1%5D/Dragon+Ball+Z+BGM+Collection+%5BCD+1%5D"
     }, 
     {
         "album": "Amnesiac", 
