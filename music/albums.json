@@ -161,13 +161,6 @@
         "url": "https://www.last.fm/music/Masayoshi+Fujita/Book+of+Life"
     }, 
     {
-        "album": "Exsecror Vecordia (Demo)", 
-        "artist": "Exsecror Vecordia", 
-        "image": "", 
-        "playcount": "7", 
-        "url": "https://www.last.fm/music/Exsecror+Vecordia/Exsecror+Vecordia+(Demo)"
-    }, 
-    {
         "album": "Grandes \u00c9xitos", 
         "artist": "Jos\u00e9 Alfredo Jim\u00e9nez", 
         "image": "", 
@@ -196,11 +189,11 @@
         "url": "https://www.last.fm/music/Flica/Windvane+&+Window"
     }, 
     {
-        "album": "Ghost in the Shell", 
-        "artist": "Ghost City - Kenji Kawai", 
+        "album": "Exsecror Vecordia (Demo)", 
+        "artist": "Exsecror Vecordia", 
         "image": "", 
-        "playcount": "6", 
-        "url": "https://www.last.fm/music/Ghost+City+-+Kenji+Kawai/Ghost+in+the+Shell"
+        "playcount": "7", 
+        "url": "https://www.last.fm/music/Exsecror+Vecordia/Exsecror+Vecordia+(Demo)"
     }, 
     {
         "album": "I Miss That Feeling", 
@@ -229,6 +222,13 @@
         "image": "", 
         "playcount": "6", 
         "url": "https://www.last.fm/music/Janine+Jansen/The+Four+Seasons+(Vivaldi)"
+    }, 
+    {
+        "album": "Ghost in the Shell", 
+        "artist": "Ghost City - Kenji Kawai", 
+        "image": "", 
+        "playcount": "6", 
+        "url": "https://www.last.fm/music/Ghost+City+-+Kenji+Kawai/Ghost+in+the+Shell"
     }, 
     {
         "album": "Fruta (Vol. II)", 
