@@ -70,18 +70,18 @@
         "url": "https://www.last.fm/music/Lucybell/Lumina"
     }, 
     {
+        "album": "The Four Seasons (Vivaldi)", 
+        "artist": "Janine Jansen", 
+        "image": "", 
+        "playcount": "8", 
+        "url": "https://www.last.fm/music/Janine+Jansen/The+Four+Seasons+(Vivaldi)"
+    }, 
+    {
         "album": "Youtube Covers", 
         "artist": "Mariana Montenegro", 
         "image": "", 
         "playcount": "8", 
         "url": "https://www.last.fm/music/Mariana+Montenegro/Youtube+Covers"
-    }, 
-    {
-        "album": "The Four Seasons (Vivaldi)", 
-        "artist": "Janine Jansen", 
-        "image": "", 
-        "playcount": "7", 
-        "url": "https://www.last.fm/music/Janine+Jansen/The+Four+Seasons+(Vivaldi)"
     }, 
     {
         "album": "Mena", 
