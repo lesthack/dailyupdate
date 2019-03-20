@@ -91,13 +91,6 @@
         "url": "https://www.last.fm/music/Janet+Camargo/Janet+Camargo"
     }, 
     {
-        "album": "Solo Guitarra", 
-        "artist": "Juan C. Allende", 
-        "image": "", 
-        "playcount": "6", 
-        "url": "https://www.last.fm/music/Juan+C.+Allende/Solo+Guitarra"
-    }, 
-    {
         "album": "FreeFalling", 
         "artist": "Nardeydey", 
         "image": "", 
@@ -117,6 +110,13 @@
         "image": "", 
         "playcount": "5", 
         "url": "https://www.last.fm/music/Bakemonogatari+Ongaku+Zenshu+Songs+&+Soundtracks/Bakemonogatari+Ongaku+Zenshu+Songs+&+Soundtracks"
+    }, 
+    {
+        "album": "Solo Guitarra", 
+        "artist": "Juan C. Allende", 
+        "image": "", 
+        "playcount": "5", 
+        "url": "https://www.last.fm/music/Juan+C.+Allende/Solo+Guitarra"
     }, 
     {
         "album": "Kamikaze", 
