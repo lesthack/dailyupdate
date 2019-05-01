@@ -140,13 +140,6 @@
         "url": "https://www.last.fm/music/Caf%C3%A9+Tacvba/Caf%C3%A9+Tacvba"
     }, 
     {
-        "album": "Youtube Covers", 
-        "artist": "Daniela Andrade", 
-        "image": "", 
-        "playcount": "4", 
-        "url": "https://www.last.fm/music/Daniela+Andrade/Youtube+Covers"
-    }, 
-    {
         "album": "Evangelion 2.0: You Can [Not] Advance OST [CD 2]", 
         "artist": "Evangelion 2.0: You Can [Not] Advance OST [CD 2]", 
         "image": "", 
@@ -187,6 +180,13 @@
         "image": "", 
         "playcount": "3", 
         "url": "https://www.last.fm/music/Claude+Fontaine/Pretending+He+Was+You"
+    }, 
+    {
+        "album": "Youtube Covers", 
+        "artist": "Daniela Andrade", 
+        "image": "", 
+        "playcount": "3", 
+        "url": "https://www.last.fm/music/Daniela+Andrade/Youtube+Covers"
     }, 
     {
         "album": "Sangre Cita", 
