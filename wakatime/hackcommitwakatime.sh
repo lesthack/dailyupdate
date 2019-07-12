@@ -21,12 +21,11 @@ commit(){
   if [ ! $path_file = "" ]; then # Path valida
     if [ -f $path_file ]; then # El archivo existe
       echo "Add to commit $path_file"
-      #echo "hacking github" > $path_file
-      #export GIT_COMMITTER_DATE="$1-$2-$3 12:00:00"
-      #export GIT_AUTHOR_DATE="$1-$2-$3 12:00:00"
-      #git add $path_file -f
-      #git commit --date="$1-$2-$3 12:00:00" -m "$1 $2 $3 hacking"
-      #git push origin master-grey
+      export GIT_COMMITTER_DATE="$1-$2-$3 12:00:00"
+      export GIT_AUTHOR_DATE="$1-$2-$3 12:00:00"
+      git add $path_file -f
+      git commit --date="$1-$2-$3 12:00:00" -m "$1 $2 $3 wakatime track"
+      git push origin master-grey
     fi
   fi
 }
