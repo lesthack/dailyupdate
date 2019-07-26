@@ -140,6 +140,13 @@
         "url": "https://www.last.fm/music/Max+Richter/FILM+MUSIC"
     }, 
     {
+        "album": "80s Pop", 
+        "artist": "Tears for Fears", 
+        "image": "", 
+        "playcount": "5", 
+        "url": "https://www.last.fm/music/Tears+for+Fears/80s+Pop"
+    }, 
+    {
         "album": "LOFI BEATS 2", 
         "artist": "Akira The Don", 
         "image": "", 
@@ -229,13 +236,6 @@
         "image": "", 
         "playcount": "4", 
         "url": "https://www.last.fm/music/Sol+Seppy/The+Bells+of+12"
-    }, 
-    {
-        "album": "80s Pop", 
-        "artist": "Tears for Fears", 
-        "image": "", 
-        "playcount": "4", 
-        "url": "https://www.last.fm/music/Tears+for+Fears/80s+Pop"
     }, 
     {
         "album": "Vibes 3", 
