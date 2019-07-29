@@ -77,18 +77,18 @@
         "url": "https://www.last.fm/music/Aqua/Aquarium"
     }, 
     {
-        "album": "Sailorfag", 
-        "artist": "Sailorfag & Cubebass", 
-        "image": "", 
-        "playcount": "8", 
-        "url": "https://www.last.fm/music/Sailorfag+&+Cubebass/Sailorfag"
-    }, 
-    {
         "album": "10 Anos Entre as Ru\u00ednas", 
         "artist": "Modernum Decadentia Oppositorum", 
         "image": "", 
         "playcount": "7", 
         "url": "https://www.last.fm/music/Modernum+Decadentia+Oppositorum/10+Anos+Entre+as+Ru%C3%ADnas"
+    }, 
+    {
+        "album": "Sailorfag", 
+        "artist": "Sailorfag & Cubebass", 
+        "image": "", 
+        "playcount": "7", 
+        "url": "https://www.last.fm/music/Sailorfag+&+Cubebass/Sailorfag"
     }, 
     {
         "album": "Babel", 
