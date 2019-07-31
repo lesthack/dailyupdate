@@ -32,5 +32,5 @@ python lastfm.py -p "$path" -s
 # Only path music
 git pull origin dev
 git add music
-git commit -m "Changes on $date"
+git commit -m "Lastfm: $date"
 git push origin master
