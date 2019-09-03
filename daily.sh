@@ -9,7 +9,6 @@ month=`date +"%m"`
 #if [ -x /usr/bin/keychain ]; then
 #    /usr/bin/keychain --quiet --clear $HOME/.ssh/git_rsa
 #fi
-
 . ~/.keychain/`/bin/hostname`-sh
 
 cd $path
@@ -30,7 +29,7 @@ fi
 python lastfm.py -p "$path" -s
 
 # Only path music
-git pull origin dev
+git pull origin master
 git add music
-git commit -m "Changes on $date"
+git commit -m "Lastfm: $date"
 git push origin master
