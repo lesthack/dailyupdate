@@ -147,13 +147,6 @@
         "url": "https://www.last.fm/music/Nardeydey/FreeFalling"
     }, 
     {
-        "album": "Existe um Cachorro Faminto na Minha Barriga Latindo pra Voc\u00ea", 
-        "artist": "Rubens da Selva", 
-        "image": "", 
-        "playcount": "5", 
-        "url": "https://www.last.fm/music/Rubens+da+Selva/Existe+um+Cachorro+Faminto+na+Minha+Barriga+Latindo+pra+Voc%C3%AA"
-    }, 
-    {
         "album": "Blink of an Eye", 
         "artist": "varnrable", 
         "image": "", 
@@ -320,6 +313,13 @@
         "image": "", 
         "playcount": "4", 
         "url": "https://www.last.fm/music/Quebrada+Queer+&+Apuke/Pra+Quem+Duvidou"
+    }, 
+    {
+        "album": "Existe um Cachorro Faminto na Minha Barriga Latindo pra Voc\u00ea", 
+        "artist": "Rubens da Selva", 
+        "image": "", 
+        "playcount": "4", 
+        "url": "https://www.last.fm/music/Rubens+da+Selva/Existe+um+Cachorro+Faminto+na+Minha+Barriga+Latindo+pra+Voc%C3%AA"
     }, 
     {
         "album": "Impulsos", 
