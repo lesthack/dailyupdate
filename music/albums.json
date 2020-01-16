@@ -182,13 +182,6 @@
         "url": "https://www.last.fm/music/Doctor+Nativo/Guatemaya+-+EP"
     }, 
     {
-        "album": "Lim\u00edtrofes", 
-        "artist": "Dogos", 
-        "image": "", 
-        "playcount": "4", 
-        "url": "https://www.last.fm/music/Dogos/Lim%C3%ADtrofes"
-    }, 
-    {
         "album": "Luces Violeta", 
         "artist": "Dylan Thomas.", 
         "image": "", 
@@ -348,5 +341,12 @@
         "image": "", 
         "playcount": "3", 
         "url": "https://www.last.fm/music/Alvinsch/Ser+Normal"
+    }, 
+    {
+        "album": "On My Mind", 
+        "artist": "AR Ferdinand", 
+        "image": "", 
+        "playcount": "3", 
+        "url": "https://www.last.fm/music/AR+Ferdinand/On+My+Mind"
     }
 ]}
