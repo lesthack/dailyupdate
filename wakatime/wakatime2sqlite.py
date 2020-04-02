@@ -159,7 +159,7 @@ elif args['action'] == 'import':
         sqlitefile = args['o']
     if not os.path.isfile(filename):
         argp.error('File {} not exists'.format(filename))
-    itsok = 'n'
+    itsok = 'y'
     if os.path.isfile(sqlitefile):
         itsok = input('The file {} exist\'s right now, do you want replace? [y/n]: '.format(sqlitefile))
     if itsok.strip() in ['y','Y']:

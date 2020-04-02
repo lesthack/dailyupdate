@@ -30,27 +30,51 @@ commit(){
   fi
 }
 
-for Y in {2015..2019}
+#for Y in {2015..2019}
+#do
+#  for M in {01..12}
+#  do
+#    if [[ ${D31[*]} =~ $M ]]; then
+#      for D in {01..31}
+#      do
+#        commit $Y $M $D
+#      done
+#    else
+#      if [ $M = 02 ]; then
+#        for D in {01..28}
+#        do
+#          commit $Y $M $D
+#        done
+#      else
+#        for D in {01..30}
+#        do
+#          commit $Y $M $D
+#        done
+#      fi
+#    fi
+#  done
+#done
+
+# Limitando a ultimos meses
+Y=2019
+for M in {08..09}
 do
-  for M in {01..12}
-  do
-    if [[ ${D31[*]} =~ $M ]]; then
-      for D in {01..31}
+  if [[ ${D31[*]} =~ $M ]]; then
+    for D in {01..31}
+    do
+      commit $Y $M $D
+    done
+  else
+    if [ $M = 02 ]; then
+      for D in {01..28}
       do
         commit $Y $M $D
       done
     else
-      if [ $M = 02 ]; then
-        for D in {01..28}
-        do
-          commit $Y $M $D
-        done
-      else
-        for D in {01..30}
-        do
-          commit $Y $M $D
-        done
-      fi
+      for D in {01..30}
+      do
+        commit $Y $M $D
+      done
     fi
-  done
+  fi
 done
