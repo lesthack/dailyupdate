@@ -1,2 +1,8 @@
 #logs
 logs/*
+
+#swap
+*.swp
+
+# wakatime
+wakatime/wakatime-lesthackgmail.com-e5f9e74ed16645a8b3673b98ef4b52a1.json

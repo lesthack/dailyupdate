@@ -114,7 +114,7 @@ args = vars(argp.parse_args())
 if args['path'] and args['scrobbler']:
     music_path = os.path.join(args['path'], 'music', year, month)
     scrobbler(music_path)
-if args['path'] and args['topalbums']:
+elif args['path'] and args['topalbums']:
     topalbums(args['path'])
 else:
     argp.print_help()
